@@ -1,0 +1,23 @@
+<h1>Pesach Hotel Directory</h1>
+<h3>Are we missing a program. Share it with us</h3>
+<%= form_tag "/added_program_result_page", method: :post do %>
+<div>
+  <div>Name of Program</div>
+  <input type = "text" name = "program">
+  <div>Country</div>
+  <input type = "text" name = "country">
+  <div>State</div>
+  <input type = "text" name = "state">
+  <div>City</div>
+  <input type = "text" name = "city">
+  <div>Resort</div>
+  <input type = "text" name = "resort">
+  <div>Photo Link</div>
+  <input type = "text" name = "image">
+  <div>Web Site Link</div>
+  <input type = "text" name = "site">
+  </div>
+  <div>
+    <input type = "submit" value = "Submit New Program">
+    </div>
+    <% end %>
